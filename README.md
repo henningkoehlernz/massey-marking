@@ -18,7 +18,7 @@ Requires Python to be installed (Python 2 and 3 should both work).
 
 ## Example
 
-In the example below I was using 2 Stream export files for two separate assessments, each of which includes both internal and extramural cohorts. For the first assessment the desired results were located in column G (the default), for the second in column H.
+In the example below I was using one Stream export file for two separate assessments, for both internal and extramural cohorts. For the first assessment the desired results were located in column G (the default), for the second in column H.
 These are copied over into 4 different SMS import files, one per assessment and cohort.
 
 <img src="./mark_merged.png"/>
