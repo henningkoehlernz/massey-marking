@@ -44,6 +44,7 @@ if __name__ == "__main__":
             # match by student ID
             if sms_row[column_index('G')].startswith(student_id, 1):
                 sms_row[column_index('J')] = "{:.2f}".format(percentage)
+                sms_row[column_index('K')] = "" # clear grade or SMS may reject due to mark/grade mismatch
                 match_count += 1
                 break
     print("merged marks for {}/{} students".format(match_count, len(stream_values) - 1))
